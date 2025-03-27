@@ -4,4 +4,4 @@ numpy
 certifi
 pymongo
 
--e .
+##-e .
