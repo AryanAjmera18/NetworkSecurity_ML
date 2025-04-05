@@ -1,0 +1,25 @@
+[2025-04-05 00:56:56,210] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-05 00:56:56,215] 107 dagshub - INFO - Accessing as AryanAjmera18
+[2025-04-05 00:56:56,806] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/AryanAjmera18/NetworkSecurity_ML "HTTP/1.1 200 OK"
+[2025-04-05 00:56:57,115] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-05 00:56:57,117] 107 dagshub - INFO - Initialized MLflow to track repo "AryanAjmera18/NetworkSecurity_ML"
+[2025-04-05 00:56:57,118] 107 dagshub - INFO - Repository AryanAjmera18/NetworkSecurity_ML initialized!
+[2025-04-05 00:57:02,432] 35 root - INFO - Start data Ingestion
+[2025-04-05 00:57:10,260] 60 root - INFO - Train set ,test set created 
+[2025-04-05 00:57:10,260] 61 root - INFO - Exited train test method of Data Ingestion_class 
+[2025-04-05 00:57:10,260] 66 root - INFO - Exporting train and test file
+[2025-04-05 00:57:10,299] 74 root - INFO - Exported train and test file path.
+[2025-04-05 00:57:10,299] 38 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifacts(trained_file_path='Artifacts\\04_05_2025_00_56_52\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\04_05_2025_00_56_52\\data_ingestion\\ingested\\test.csv')
+[2025-04-05 00:57:10,304] 48 root - INFO - Initiate the data Validation
+[2025-04-05 00:57:10,354] 31 root - INFO - Required number of columns :2
+[2025-04-05 00:57:10,354] 32 root - INFO - DataFrame has columns :31
+[2025-04-05 00:57:10,354] 31 root - INFO - Required number of columns :2
+[2025-04-05 00:57:10,354] 32 root - INFO - DataFrame has columns :31
+[2025-04-05 00:57:10,464] 54 root - INFO - Enterd initiate_data_transformation method
+[2025-04-05 00:57:10,464] 56 root - INFO - Starting data transformation
+[2025-04-05 00:57:10,482] 36 root - INFO - Enter data tranformation object (KNN imputer)
+[2025-04-05 00:57:10,482] 40 root - INFO - initalised KNN imputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-04-05 00:57:10,490] 47 root - INFO - entered the save object function of utils class
+[2025-04-05 00:57:10,492] 51 root - INFO - Exited the save object function in main utils class
+[2025-04-05 00:57:10,492] 47 root - INFO - entered the save object function of utils class
+[2025-04-05 00:57:10,494] 51 root - INFO - Exited the save object function in main utils class
