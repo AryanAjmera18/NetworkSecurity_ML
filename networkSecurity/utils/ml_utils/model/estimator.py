@@ -14,7 +14,7 @@ class NetworkModel:
     
     def predict(self,x):
         try:
-            x_trasnform = self.preproccesor.trasnform(x)
+            x_trasnform = self.preproccesor.transform(x)
             y_hat = self.model.predict(x_trasnform)
             return y_hat
         except Exception as e:
