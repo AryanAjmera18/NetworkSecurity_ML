@@ -1,0 +1,6 @@
+[2025-04-06 01:13:58,163] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-06 01:13:58,166] 107 dagshub - INFO - Accessing as AryanAjmera18
+[2025-04-06 01:13:58,334] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/AryanAjmera18/NetworkSecurity_ML "HTTP/1.1 200 OK"
+[2025-04-06 01:13:58,455] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-06 01:13:58,458] 107 dagshub - INFO - Initialized MLflow to track repo "AryanAjmera18/NetworkSecurity_ML"
+[2025-04-06 01:13:58,458] 107 dagshub - INFO - Repository AryanAjmera18/NetworkSecurity_ML initialized!
